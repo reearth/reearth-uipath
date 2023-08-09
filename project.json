@@ -1,0 +1,95 @@
+{
+  "name": "reearth_uipath",
+  "projectId": "b7fe7bb7-4ec7-43eb-98f2-4b528f53387c",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[23.6.0-preview]",
+    "UiPath.Testing.Activities": "[23.6.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.6.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.6.1.0",
+  "projectVersion": "1.0.145276296",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3638e3cb-35c8-4279-a83b-3ab4a2a8a683",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "001Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "02374fed-26da-40b3-98fd-9b6cbc93089e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "004CreateModele.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "61dbce96-aa64-44e0-b4ab-a77fff262745",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "003CreateProject.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5ac21420-3125-43cc-b5aa-b6f799428d29",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "002CreateWorkspace.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "612b9f38-7789-40e6-a464-8b5926457758",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "005CreateTextContent.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7e4653fc-5cec-420b-b475-280498682b19",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "006CreateTextAreaContent.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
