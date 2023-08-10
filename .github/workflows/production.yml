@@ -34,7 +34,7 @@ jobs:
     environment: PRD
     env:
       # Replace with your Orchestrator Values for Production
-      PROJECT_NAME: reearth-uipath_1
+      PROJECT_NAME: reearth-uipath
       #PROJECT_FOLDER: ${{ github.action_path }}
       PROJECT_FOLDER: ${{ github.workspace }}
       ORCH_URL: ${{ secrets. ORCH_URL }}
