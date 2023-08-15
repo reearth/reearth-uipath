@@ -57,12 +57,14 @@ jobs:
             Invoke-WebRequest "https://github.com/UiPath-Services/UiPath-DevOps-Scripts/raw/main/scripts/UiPathJobRun.ps1" -OutFile "${{ github.workspace }}/scripts/UiPathJobRun.ps1"
             Invoke-WebRequest "https://github.com/UiPath-Services/UiPath-DevOps-Scripts/raw/main/scripts/UiPathRunTest.ps1" -OutFile "${{ github.workspace }}/scripts/UiPathRunTest.ps1"
             Invoke-WebRequest "https://github.com/UiPath-Services/UiPath-DevOps-Scripts/raw/main/scripts/UiPathManageAssets.ps1" -OutFile "${{ github.workspace }}/scripts/UiPathManageAssets.ps1"
+
       - name: View Scripts Folder
         shell: pwsh
         run: |
           $scriptsFolder = "${{ github.workspace }}/scripts"
           echo "Contents of $scriptsFolder"
           Get-ChildItem -Path $scriptsFolder
+          
       - name: Build Nuget Package
         shell: pwsh
         run: ${{ github.workspace }}\scripts\UiPathPack.ps1 ${{ github.workspace }}\project.json -destination_folder ${{ github.workspace }}\package
