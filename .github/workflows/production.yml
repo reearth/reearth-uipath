@@ -37,8 +37,7 @@ jobs:
       PROJECT_NAME: reearth-uipath
       #PROJECT_FOLDER: ${{ github.action_path }}
       PROJECT_FOLDER: ${{ github.workspace }}
-      # ORCH_URL: ${{ secrets. ORCH_URL }}
-      ORCH_URL: https://cloud.uipath.com/eukarya/DefaultTenant/orchestrator_/
+      ORCH_URL: ${{ secrets. ORCH_URL }}
       ORCH_TENANT: ${{ secrets.UIPATHTENANTNAME }}
       ORCH_CLIENT_ID: ${{ secrets.UIPATHCLIENTID }}
       ORCH_USER_KEY: ${{ secrets.UIPATHUSERKEY }}

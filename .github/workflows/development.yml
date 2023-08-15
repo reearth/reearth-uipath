@@ -92,22 +92,55 @@ jobs:
         with:
           name: Artifacts
       - name: Test the Package With Test Cases
-        run: ${{ github.workspace }}\scripts\\UiPathRunTest.ps1  ${{env.ORCH_URL}} ${{env.ORCH_TENANT}} -UserKey ${{env.ORCH_USER_KEY}} -account_name ${{env.ORCH_ACC_NAME}} -testset "Shared\TestSet"
+        # run: ${{ github.workspace }}\scripts\\UiPathRunTest.ps1  ${{env.ORCH_URL}} ${{env.ORCH_TENANT}} -UserKey ${{env.ORCH_USER_KEY}} -account_name ${{env.ORCH_ACC_NAME}} -testset "Shared\TestSet"
+        run: ${{ github.workspace }}\scripts\\UiPathRunTest.ps1 -orchestrator_url ${{env.ORCH_URL}} -orchestrator_tenan ${{env.ORCH_TENANT}} -UserKey ${{env.ORCH_USER_KEY}} -account_name ${{env.ORCH_ACC_NAME}} -testset "Testing Login"
 
   # Create Pull Request for Merge & Review
   create-pull-request:
     needs: test-uipath-published-package
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
-      - name: pull-request
-        uses: repo-sync/pull-request@v2
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
         with:
-          destination_branch: "main"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          pr_label: "feature, automated pr"
-          pr_title: "Pull Request From Github Action"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Update report
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          signoff: false
+          delete-branch: false
+          # base: main  # This is the target branch
+          branch: developper  # This is the source branch with changes
+          title: New Pull Request from Developper
+          body: This is a new pull request from the developper branch.
+          labels: |
+            report
+            automated pr
+          # assignees: peter-evans
+          # reviewers: peter-evans
+          # team-reviewers: |
+          #   developers
+          #   qa-team
+          # milestone: 1
+          draft: false
+          
+  # create-pull-request:
+  #   needs: test-uipath-published-package
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Check out repository code
+  #       uses: actions/checkout@v2
+  #     - name: pull-request
+  #       uses: repo-sync/pull-request@v2
+  #       with:
+  #         destination_branch: "main"
+  #         github_token: ${{ secrets.GITHUB_TOKEN }}
+  #         pr_label: "feature, automated pr"
+  #         pr_title: "Pull Request From Github Action"
 
   # "notify" workflow for slack notification
   notify:
