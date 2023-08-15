@@ -37,7 +37,8 @@ jobs:
       PROJECT_NAME: reearth-uipath
       #PROJECT_FOLDER: ${{ github.action_path }}
       PROJECT_FOLDER: ${{ github.workspace }}
-      ORCH_URL: ${{ secrets. ORCH_URL }}
+      # ORCH_URL: ${{ secrets. ORCH_URL }}
+      ORCH_URL: https://cloud.uipath.com/eukarya/DefaultTenant/orchestrator_/
       ORCH_TENANT: ${{ secrets.UIPATHTENANTNAME }}
       ORCH_CLIENT_ID: ${{ secrets.UIPATHCLIENTID }}
       ORCH_USER_KEY: ${{ secrets.UIPATHUSERKEY }}
@@ -64,7 +65,7 @@ jobs:
           $scriptsFolder = "${{ github.workspace }}/scripts"
           echo "Contents of $scriptsFolder"
           Get-ChildItem -Path $scriptsFolder
-          
+
       - name: Build Nuget Package
         shell: pwsh
         run: ${{ github.workspace }}\scripts\UiPathPack.ps1 ${{ github.workspace }}\project.json -destination_folder ${{ github.workspace }}\package
