@@ -218,6 +218,7 @@
       "Path": "NewTextContent.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "IsDeleteWorkSpace&Sequence_58",
         "MessageSucces&Flowchart_1",
         "MessageFail&Flowchart_1",
         "MessageDelete&Flowchart_1",
@@ -276,7 +277,6 @@
         "IsItem&Sequence_6",
         "IsSchemaDelete&Sequence_7",
         "IsDeleteProject&Sequence_8",
-        "IsDeleteWorkSpace&Sequence_9",
         "IsLogOut&Sequence_10"
       ],
       "ArgumentsSectionElementsOrder": [],
@@ -299,6 +299,7 @@
       "Path": "NewTextAreaContent.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "IsDeleteWorkSpace&Sequence_66",
         "MessageSucces&Flowchart_1",
         "MessageFail&Flowchart_1",
         "MessageDelete&Flowchart_1",
@@ -362,7 +363,6 @@
         "ModelDescription&Sequence_5",
         "IsSchemaDelete&Sequence_6",
         "IsDeleteProject&Sequence_7",
-        "IsDeleteWorkSpace&Sequence_8",
         "IsLogOut&Sequence_9"
       ],
       "ArgumentsSectionElementsOrder": [],
