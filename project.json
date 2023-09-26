@@ -12,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.6.1.0",
-  "projectVersion": "1.0.147008681",
+  "projectVersion": "1.0.149418245",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -104,6 +104,20 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "009CreateOptionSchema.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fd5aee91-bade-4c72-862d-29bd9969e17d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "10CreateAnIntegerContent.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "648db489-7982-44dd-a982-7e6cbfadc560",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "11CreateNewURLcontent.xaml"
       }
     ],
     "modernBehavior": true
