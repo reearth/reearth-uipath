@@ -4,6 +4,8 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
+    "ReporterForUiPath.Activities": "[3.0.1]",
+    "Slackbot.Net.SlackClients.Http": "[6.1.0-feature0021-ee28ead]",
     "UiPath.System.Activities": "[23.6.0-preview]",
     "UiPath.Testing.Activities": "[23.6.0-preview]",
     "UiPath.UIAutomation.Activities": "[23.6.1-preview]"
@@ -12,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.6.1.0",
-  "projectVersion": "1.0.149420796",
+  "projectVersion": "1.0.151201453",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,

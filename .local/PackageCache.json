@@ -21,15 +21,12 @@
         "C:\\Users\\mason\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll",
         "C:\\Users\\mason\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll",
         "C:\\Users\\mason\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.VisualBasic.dll",
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll",
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\lib/netstandard2.1/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\lib/net6.0/Microsoft.Extensions.Primitives.dll",
         "C:\\Users\\mason\\.nuget\\packages\\microsoft.management.infrastructure.cimcmdlets\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.Management.Infrastructure.CimCmdlets.dll",
         "C:\\Users\\mason\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0\\runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
         "C:\\Users\\mason\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0\\runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
@@ -151,6 +148,39 @@
         "C:\\Users\\mason\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\mason\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.1-preview"
+    },
+    {
+      "Package": {
+        "Id": "Slackbot.Net.SlackClients.Http",
+        "Version": "6.1.0-feature0021-ee28ead"
+      },
+      "Assemblies": [
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\lib/netstandard2.0/Microsoft.Extensions.Http.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\lib/netstandard2.1/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\6.0.0\\lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\slackbot.net.slackclients.http\\6.1.0-feature0021-ee28ead\\lib/net6.0/Slackbot.Net.Shared.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\slackbot.net.slackclients.http\\6.1.0-feature0021-ee28ead\\lib/net6.0/Slackbot.Net.SlackClients.Http.dll"
+      ],
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\slackbot.net.slackclients.http\\6.1.0-feature0021-ee28ead"
+    },
+    {
+      "Package": {
+        "Id": "ReporterForUiPath.Activities",
+        "Version": "3.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\mason\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\lib/net6.0-windows7.0/ReporterForUiPath.Activities.Design.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\lib/net6.0-windows7.0/ReporterForUiPath.Activities.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\lib/net6.0-windows7.0/ReporterForUiPath.dll"
+      ],
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\reporterforuipath.activities\\3.0.1"
     }
   ],
   "Conflicts": [],
@@ -414,96 +444,147 @@
       "Version": "4.7.0",
       "Dependencies": []
     },
-    "Microsoft.Extensions.Configuration": {
-      "Id": "Microsoft.Extensions.Configuration",
-      "Version": "3.1.6",
-      "Dependencies": [
-        {
-          "Item1": "Microsoft.Extensions.Configuration.Abstractions",
-          "Item2": "[3.1.6, )"
-        }
-      ]
-    },
     "Microsoft.Extensions.Configuration.Abstractions": {
       "Id": "Microsoft.Extensions.Configuration.Abstractions",
-      "Version": "3.1.6",
+      "Version": "6.0.0",
       "Dependencies": [
         {
           "Item1": "Microsoft.Extensions.Primitives",
-          "Item2": "[3.1.6, )"
+          "Item2": "[6.0.0, )"
         }
       ]
     },
     "Microsoft.Extensions.Configuration.Binder": {
       "Id": "Microsoft.Extensions.Configuration.Binder",
-      "Version": "3.1.6",
+      "Version": "6.0.0",
       "Dependencies": [
         {
-          "Item1": "Microsoft.Extensions.Configuration",
-          "Item2": "[3.1.6, )"
+          "Item1": "Microsoft.Extensions.Configuration.Abstractions",
+          "Item2": "[6.0.0, )"
         }
       ]
     },
     "Microsoft.Extensions.DependencyInjection": {
       "Id": "Microsoft.Extensions.DependencyInjection",
-      "Version": "3.1.6",
+      "Version": "6.0.0",
       "Dependencies": [
         {
           "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
-          "Item2": "[3.1.6, )"
+          "Item2": "[6.0.0, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[6.0.0, )"
         }
       ]
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions": {
       "Id": "Microsoft.Extensions.DependencyInjection.Abstractions",
-      "Version": "3.1.6",
+      "Version": "6.0.0",
       "Dependencies": []
     },
-    "Microsoft.Extensions.Logging": {
-      "Id": "Microsoft.Extensions.Logging",
-      "Version": "3.1.6",
+    "Microsoft.Extensions.Http": {
+      "Id": "Microsoft.Extensions.Http",
+      "Version": "6.0.0",
       "Dependencies": [
         {
-          "Item1": "Microsoft.Extensions.Configuration.Binder",
-          "Item2": "[3.1.6, )"
-        },
-        {
-          "Item1": "Microsoft.Extensions.DependencyInjection",
-          "Item2": "[3.1.6, )"
+          "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "Item2": "[6.0.0, )"
         },
         {
           "Item1": "Microsoft.Extensions.Logging.Abstractions",
-          "Item2": "[3.1.6, )"
+          "Item2": "[6.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Logging",
+          "Item2": "[6.0.0, )"
         },
         {
           "Item1": "Microsoft.Extensions.Options",
-          "Item2": "[3.1.6, )"
+          "Item2": "[6.0.0, )"
+        }
+      ]
+    },
+    "Microsoft.Extensions.Logging": {
+      "Id": "Microsoft.Extensions.Logging",
+      "Version": "6.0.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "Item2": "[6.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection",
+          "Item2": "[6.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Logging.Abstractions",
+          "Item2": "[6.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Options",
+          "Item2": "[6.0.0, )"
+        },
+        {
+          "Item1": "System.Diagnostics.DiagnosticSource",
+          "Item2": "[6.0.0, )"
         }
       ]
     },
     "Microsoft.Extensions.Logging.Abstractions": {
       "Id": "Microsoft.Extensions.Logging.Abstractions",
-      "Version": "3.1.6",
+      "Version": "6.0.0",
       "Dependencies": []
     },
     "Microsoft.Extensions.Options": {
       "Id": "Microsoft.Extensions.Options",
-      "Version": "3.1.6",
+      "Version": "6.0.0",
       "Dependencies": [
         {
           "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
-          "Item2": "[3.1.6, )"
+          "Item2": "[6.0.0, )"
         },
         {
           "Item1": "Microsoft.Extensions.Primitives",
-          "Item2": "[3.1.6, )"
+          "Item2": "[6.0.0, )"
+        }
+      ]
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions": {
+      "Id": "Microsoft.Extensions.Options.ConfigurationExtensions",
+      "Version": "6.0.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.Configuration.Abstractions",
+          "Item2": "[6.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Configuration.Binder",
+          "Item2": "[6.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "Item2": "[6.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Options",
+          "Item2": "[6.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Primitives",
+          "Item2": "[6.0.0, )"
         }
       ]
     },
     "Microsoft.Extensions.Primitives": {
       "Id": "Microsoft.Extensions.Primitives",
-      "Version": "3.1.6",
-      "Dependencies": []
+      "Version": "6.0.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[6.0.0, )"
+        }
+      ]
     },
     "Microsoft.Management.Infrastructure": {
       "Id": "Microsoft.Management.Infrastructure",
@@ -1254,6 +1335,11 @@
       "Version": "7.1.0",
       "Dependencies": []
     },
+    "ReporterForUiPath.Activities": {
+      "Id": "ReporterForUiPath.Activities",
+      "Version": "3.0.1",
+      "Dependencies": []
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
       "Id": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
       "Version": "4.3.2",
@@ -1486,6 +1572,20 @@
       "Id": "SharpZipLib",
       "Version": "1.3.3",
       "Dependencies": []
+    },
+    "Slackbot.Net.SlackClients.Http": {
+      "Id": "Slackbot.Net.SlackClients.Http",
+      "Version": "6.1.0-feature0021-ee28ead",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.Http",
+          "Item2": "[6.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Options.ConfigurationExtensions",
+          "Item2": "[6.0.0, )"
+        }
+      ]
     },
     "System.Activities.ViewModels": {
       "Id": "System.Activities.ViewModels",
@@ -1741,8 +1841,13 @@
     },
     "System.Diagnostics.DiagnosticSource": {
       "Id": "System.Diagnostics.DiagnosticSource",
-      "Version": "4.6.0",
-      "Dependencies": []
+      "Version": "6.0.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[6.0.0, )"
+        }
+      ]
     },
     "System.Diagnostics.EventLog": {
       "Id": "System.Diagnostics.EventLog",
@@ -4288,93 +4393,103 @@
     },
     {
       "Package": {
-        "Id": "Microsoft.Extensions.Configuration",
-        "Version": "3.1.6"
-      },
-      "Assemblies": [
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.dll"
-      ],
-      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6"
-    },
-    {
-      "Package": {
         "Id": "Microsoft.Extensions.Configuration.Abstractions",
-        "Version": "3.1.6"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.Abstractions.dll"
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6"
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0"
     },
     {
       "Package": {
         "Id": "Microsoft.Extensions.Configuration.Binder",
-        "Version": "3.1.6"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.Binder.dll"
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Binder.dll"
       ],
-      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6"
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0"
     },
     {
       "Package": {
         "Id": "Microsoft.Extensions.DependencyInjection",
-        "Version": "3.1.6"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.DependencyInjection.dll"
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
       ],
-      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6"
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0"
     },
     {
       "Package": {
         "Id": "Microsoft.Extensions.DependencyInjection.Abstractions",
-        "Version": "3.1.6"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6"
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Http",
+        "Version": "6.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\lib\\netstandard2.0\\Microsoft.Extensions.Http.dll"
+      ],
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.http\\6.0.0"
     },
     {
       "Package": {
         "Id": "Microsoft.Extensions.Logging",
-        "Version": "3.1.6"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Logging.dll"
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Logging.dll"
       ],
-      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6"
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0"
     },
     {
       "Package": {
         "Id": "Microsoft.Extensions.Logging.Abstractions",
-        "Version": "3.1.6"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6"
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0"
     },
     {
       "Package": {
         "Id": "Microsoft.Extensions.Options",
-        "Version": "3.1.6"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Options.dll"
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Options.dll"
       ],
-      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.options\\3.1.6"
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.options\\6.0.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Options.ConfigurationExtensions",
+        "Version": "6.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\6.0.0\\lib\\netstandard2.0\\Microsoft.Extensions.Options.ConfigurationExtensions.dll"
+      ],
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\6.0.0"
     },
     {
       "Package": {
         "Id": "Microsoft.Extensions.Primitives",
-        "Version": "3.1.6"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Primitives.dll"
+        "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
       ],
-      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6"
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0"
     },
     {
       "Package": {
@@ -4684,6 +4799,18 @@
         "C:\\Users\\mason\\.nuget\\packages\\polly\\7.1.0\\lib\\netstandard2.0\\Polly.dll"
       ],
       "Path": "C:\\Users\\mason\\.nuget\\packages\\polly\\7.1.0"
+    },
+    {
+      "Package": {
+        "Id": "ReporterForUiPath.Activities",
+        "Version": "3.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\mason\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\lib\\net6.0-windows7.0\\ReporterForUiPath.Activities.Design.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\lib\\net6.0-windows7.0\\ReporterForUiPath.Activities.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\reporterforuipath.activities\\3.0.1\\lib\\net6.0-windows7.0\\ReporterForUiPath.dll"
+      ],
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\reporterforuipath.activities\\3.0.1"
     },
     {
       "Package": {
@@ -5165,6 +5292,17 @@
     },
     {
       "Package": {
+        "Id": "Slackbot.Net.SlackClients.Http",
+        "Version": "6.1.0-feature0021-ee28ead"
+      },
+      "Assemblies": [
+        "C:\\Users\\mason\\.nuget\\packages\\slackbot.net.slackclients.http\\6.1.0-feature0021-ee28ead\\lib\\net6.0\\Slackbot.Net.Shared.dll",
+        "C:\\Users\\mason\\.nuget\\packages\\slackbot.net.slackclients.http\\6.1.0-feature0021-ee28ead\\lib\\net6.0\\Slackbot.Net.SlackClients.Http.dll"
+      ],
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\slackbot.net.slackclients.http\\6.1.0-feature0021-ee28ead"
+    },
+    {
+      "Package": {
         "Id": "System.Activities.ViewModels",
         "Version": "1.0.0-20230609.4"
       },
@@ -5320,12 +5458,12 @@
     {
       "Package": {
         "Id": "System.Diagnostics.DiagnosticSource",
-        "Version": "4.6.0"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\mason\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\lib\\netstandard1.3\\System.Diagnostics.DiagnosticSource.dll"
+        "C:\\Users\\mason\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\lib\\net6.0\\System.Diagnostics.DiagnosticSource.dll"
       ],
-      "Path": "C:\\Users\\mason\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0"
+      "Path": "C:\\Users\\mason\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0"
     },
     {
       "Package": {
