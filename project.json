@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.6.1.0",
-  "projectVersion": "1.0.151498389",
+  "projectVersion": "1.0.151498381",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -120,6 +120,20 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "11CreateNewURLcontent.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d783a828-2ccb-4134-90c7-9db48276f32f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "12CreateMetaDataTags.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b2d544f6-58bf-4259-a4b3-f4d08690c443",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "13CreateMetaDataDate.xaml"
       }
     ],
     "modernBehavior": true,
