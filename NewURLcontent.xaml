@@ -233,7 +233,7 @@
                     <av:Size x:Key="ShapeSize">200,83.2</av:Size>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Create A Project" sap:VirtualizedContainerService.HintSize="797.6,33613.6" sap2010:WorkflowViewState.IdRef="Sequence_48">
+                <Sequence DisplayName="Create A Project" sap:VirtualizedContainerService.HintSize="797.6,36847.2" sap2010:WorkflowViewState.IdRef="Sequence_48">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -461,13 +461,13 @@
                       </scg:List>
                     </ui:MultipleAssign.AssignOperations>
                   </ui:MultipleAssign>
-                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Re:Earth" sap:VirtualizedContainerService.HintSize="735.2,32548.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="4cc16d90-aee9-46cc-a455-914b18492a2b" Version="V2">
+                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Re:Earth" sap:VirtualizedContainerService.HintSize="735.2,35782.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="4cc16d90-aee9-46cc-a455-914b18492a2b" Version="V2">
                     <uix:NApplicationCard.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="701.6,32332" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="701.6,35565.6" sap2010:WorkflowViewState.IdRef="Sequence_47">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -953,7 +953,7 @@
                             </If>
                           </Sequence>
                           <Delay Duration="00:00:00" sap:VirtualizedContainerService.HintSize="658.4,90.4" sap2010:WorkflowViewState.IdRef="Delay_6" />
-                          <Sequence DisplayName="Create Model " sap:VirtualizedContainerService.HintSize="658.4,2131.2" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                          <Sequence DisplayName="Create Model " sap:VirtualizedContainerService.HintSize="658.4,3352" sap2010:WorkflowViewState.IdRef="Sequence_21">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1100,7 +1100,7 @@
                               </uta:VerifyControlAttribute.Expression>
                             </uta:VerifyControlAttribute>
                             <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="533.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_7" />
-                            <If Condition="[IsModel]" sap:VirtualizedContainerService.HintSize="533.6,56.8" sap2010:WorkflowViewState.IdRef="If_4">
+                            <If Condition="[IsModel]" sap:VirtualizedContainerService.HintSize="533.6,1277.6" sap2010:WorkflowViewState.IdRef="If_4">
                               <If.Then>
                                 <Sequence sap:VirtualizedContainerService.HintSize="377.6,686.4" sap2010:WorkflowViewState.IdRef="Sequence_19">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -1143,7 +1143,7 @@
                               </If.Else>
                             </If>
                           </Sequence>
-                          <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="658.4,56.8" sap2010:WorkflowViewState.IdRef="Delay_8" />
+                          <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="658.4,90.4" sap2010:WorkflowViewState.IdRef="Delay_8" />
                           <Sequence DisplayName="Create  a text schema field " sap:VirtualizedContainerService.HintSize="658.4,4049.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1497,7 +1497,7 @@
                             </uix:NClick>
                           </Sequence>
                           <Delay Duration="00:00:00" sap:VirtualizedContainerService.HintSize="658.4,90.4" sap2010:WorkflowViewState.IdRef="Delay_14" />
-                          <Sequence DisplayName="Add New  Item 1" sap:VirtualizedContainerService.HintSize="658.4,1473.6" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                          <Sequence DisplayName="Add New  Item 1" sap:VirtualizedContainerService.HintSize="658.4,2483.2" sap2010:WorkflowViewState.IdRef="Sequence_30">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1571,8 +1571,8 @@
                                 <InArgument x:TypeArguments="x:String">[MessageItemSuccess]</InArgument>
                               </uta:VerifyControlAttribute.Expression>
                             </uta:VerifyControlAttribute>
-                            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="533.6,56.8" sap2010:WorkflowViewState.IdRef="Delay_15" />
-                            <If Condition="[IsItem]" sap:VirtualizedContainerService.HintSize="533.6,56.8" sap2010:WorkflowViewState.IdRef="If_7">
+                            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="533.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_15" />
+                            <If Condition="[IsItem]" sap:VirtualizedContainerService.HintSize="533.6,999.2" sap2010:WorkflowViewState.IdRef="If_7">
                               <If.Then>
                                 <Sequence sap:VirtualizedContainerService.HintSize="377.6,408" sap2010:WorkflowViewState.IdRef="Sequence_28">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -1596,7 +1596,7 @@
                                 </Sequence>
                               </If.Else>
                             </If>
-                            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="533.6,56.8" sap2010:WorkflowViewState.IdRef="Delay_16" />
+                            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="533.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_16" />
                             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Test'" sap:VirtualizedContainerService.HintSize="533.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4cc16d90-aee9-46cc-a455-914b18492a2b" Version="V3">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable BrowserURL="https://cms.test.reearth.dev/workspace/01h5vtbjq829p0vy5swcpaxfdg/project/01h5vtbsg8j0s2rb7vww3q023q/content/01h5vtc76ah0cgm6r6q0qf5txw/details/01h5vtrrq6b2w2dh6gdnkygma5" CvType="Icon" DesignTimeRectangle="589, 272, 20, 20" DesignTimeScaleFactor="1.25" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;svg' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='' aaname='' /&gt;" Guid="079cadd5-de47-4b26-8a07-2451542388f4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEWSURBVEhL7ZQ9jkZQFIYtgVqn0YlEq5CIBehsQmMJxAoU7AGdXmEHWAOJSqOhOF/uyTHJzDfDJZHMJPMkp3lv8j7J/RPgYf4Fp/w+gWmaIAgCxHFMyTHcgmVZQJZlLM+yjNJzuAR932Mxm6IoKOXjVFBVFRaLogh1XVPKz6EgSRIsVxQFuq6j9Bo/CoIgwHLDMGAcR0qv8yaY5xlc18Vyx3FgXVdauccnwTRNoOs6lluWdWu+ntObQNO05wSMYRjAtu1ntmhn2zbwPO/jkJn0Lt8KdnzfRwm7pm3bUnqNQwEjDEOUPPLQdtjfwyRs8jynlA8uAaMsS5AkCSVpmlJ6DreA0TQNqKqKkiiKKD3mkuAOf10A8ALkc0JEnMmuIQAAAABJRU5ErkJggg==" InformativeScreenshot="54fa539ae52d16e186a2700f45529398.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Re:Earth CMS' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
@@ -1609,8 +1609,8 @@
                               </uix:NClick.Target>
                             </uix:NClick>
                           </Sequence>
-                          <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="658.4,56.8" sap2010:WorkflowViewState.IdRef="Delay_17" />
-                          <Sequence DisplayName="Add New  Item 2" sap:VirtualizedContainerService.HintSize="658.4,1580.8" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                          <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="658.4,90.4" sap2010:WorkflowViewState.IdRef="Delay_17" />
+                          <Sequence DisplayName="Add New  Item 2" sap:VirtualizedContainerService.HintSize="658.4,2483.2" sap2010:WorkflowViewState.IdRef="Sequence_33">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1643,7 +1643,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify If Content Item sucessfully " sap:VirtualizedContainerService.HintSize="533.6,256.8" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_17" Operator="Equality" OutputArgument="Value" Result="[IsItem]" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True">
+                            <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify If Content Item sucessfully " sap:VirtualizedContainerService.HintSize="533.6,216.8" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_17" Operator="Equality" OutputArgument="Value" Result="[IsItem]" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True">
                               <uta:VerifyControlAttribute.ActivityToTest>
                                 <ActivityAction>
                                   <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Item Text" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="GetValue_8">
@@ -1685,7 +1685,7 @@
                               </uta:VerifyControlAttribute.Expression>
                             </uta:VerifyControlAttribute>
                             <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="533.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_18" />
-                            <If Condition="[IsItem]" sap:VirtualizedContainerService.HintSize="533.6,56.8" sap2010:WorkflowViewState.IdRef="If_8">
+                            <If Condition="[IsItem]" sap:VirtualizedContainerService.HintSize="533.6,999.2" sap2010:WorkflowViewState.IdRef="If_8">
                               <If.Then>
                                 <Sequence sap:VirtualizedContainerService.HintSize="377.6,408" sap2010:WorkflowViewState.IdRef="Sequence_31">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -1722,7 +1722,7 @@
                               </uix:NClick.Target>
                             </uix:NClick>
                           </Sequence>
-                          <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="658.4,56.8" sap2010:WorkflowViewState.IdRef="Delay_20" />
+                          <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="658.4,90.4" sap2010:WorkflowViewState.IdRef="Delay_20" />
                           <Sequence DisplayName="Display And  deleted Item" sap:VirtualizedContainerService.HintSize="658.4,1896.8" sap2010:WorkflowViewState.IdRef="Sequence_36">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1819,17 +1819,14 @@
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Overview'" sap:VirtualizedContainerService.HintSize="533.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4cc16d90-aee9-46cc-a455-914b18492a2b" Version="V3">
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Re:Earth CMS'" sap:VirtualizedContainerService.HintSize="533.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4cc16d90-aee9-46cc-a455-914b18492a2b" Version="V3">
                               <uix:NClick.Target>
-                                <uix:TargetAnchorable BrowserURL="https://cms.test.reearth.dev/workspace/01hb5k052nmhkje125g7h6pjm6/project/01hb5pvkwbryg1bjx2m0v9g0ba" CvElementArea="11, 268, 249, 56" CvTextArea="68, 288, 73, 16" CvTextArgument="Overview" CvType="Button" DesignTimeRectangle="10, 268, 251, 56" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Overview'" Guid="14d32dff-39f0-4c9f-a3c8-b9fce3cf24be" InformativeScreenshot="c0a5fb05e2e7835fa67b66b02e3b1235.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Re:Earth CMS' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive">
+                                <uix:TargetAnchorable BrowserURL="https://cms.test.reearth.dev/workspace/01hepxt7fefpynv40dgheaq160/project/01hepxtg4f94cgjpkx4kd14t3y/content/01hepxtv16j3zra6rkpa5tsb90" CvTextArgument="Overview" CvType="Text" DesignTimeRectangle="9, 210, 250, 50" DesignTimeScaleFactor="1.25" ElementType="ListItem" FriendlyName="'Overview'" FullSelectorArgument="&lt;webctrl tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LI' type='' class='ant-menu-item' aaname='' check:innerText='Overview' /&gt;" Guid="29668ec8-0f46-412a-915d-2c62e25f8fa6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAP4AAAA2CAYAAADnLSSIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAATUSURBVHhe7dq/SyNBFAfw+2tSCCKihYoiWFhZiI2iIlrYaAgiCNqINv44G0EuIGgnKliZKxQLEbWx8RpFUbBSD73mOLzC6l3m7Wzcnc3kdnMejHnfDyxkZ3d2Esj3zewmn3wEABXv56/fvOnYI/gAEiD4AAIh+AACIfgAAiH4AAIh+AACIfgAAiH4AAIh+AACIfgAAiH4AAIh+AACIfgAAiH4AAIh+AACIfgAAiH4AAIh+AACOR38g4MDWllZoeHhYaqrq6OOjg6anp6mzc1Nuri40GcBQFJOBv/q6op6enoolUpRa2srDQ4O0uzsLE1MTFBXVxfV1NRQVVUVzc/P6x4AkIRzwVczvAp8c3MzHR4e6laira0tOjs749dPT0+0sLDA5zU2NnLb+/hBuUyKrxvcst/0YZd8z1Ha1fcGznMq+I+Pjxy0sbExury81K2e/v7+QvCVu7s72tjY4PPn5uZ06z/4lvWC/uVcN2g6YKlMLl8WHILgwz9wKvjj4+PU1NTEAVch3NnZ0UfCXl9fqa+vjzd/hXB8fKyPlkGHKP3VFu1zyqrwm0UB4INyJvj7+/uhsG9vb9Py8jK/Nt3e3tLo6Cg9Pz/zfm9vL3V3d/Prcpx/iTGj84ogTbnveh/gA3Mm+EtLS9TS0qL37DKZDO3t7ek9j3rKrx72vby86JYkvNncPtv7AudZi4B+RhBYGfz4muaC5m/mOFx01Pn+rUbqMy0b1ygIjmtZ6lvHs5zP46ey+U8XwOeiyFUyZ4I/MDDAS3cbNcur0KvNpB72qS958BlAbLHvlYOhthQL41qRUOnjwX7eaiNN6UixMMKYF1qZFHnfpceLFqVCm3EdHt+1ZxrwrpwJfm1tLU1NTdHIyAh/EYPUb/aqbWhoSLd4/Pt7P/jr6+v6SAJlBd8IoRYKjOW6ZqgjYVWK9vWKTaHNPCfGeJGCwn2ylM2/h7di5H3OSFGDiuJM8Nvb2/m+Xc3a5sytgj0zM8NBD/LPfXh44ODv7u7qIwlYAhNlBCLSL3zcOmsatwnFCogSaed+0dncHz/WeNznbWzuky9k4b5GgYGK5Ezw1U94nZ2dei+Zo6MjDv7NzY1uSSLZPb4Z9MLSuVig8+cX34zzQstvLXQ9YyzFCH688YLFyXvN/YMFwSwwUJGcCf7q6irV19frvWTW1taooaFB7yVnm3VDigQiuHQ2A2ydgQ3W4AcLkjFTs7gzvqHwWbm//3neioD9/UAlcSb4JycnPDtNTk7qlnhOT0+purqabxPKpkNkn/VtqwJ/FWCuBvKMFYBNqaD5YT4vFmoj+HHH8wtYTl0zMK73PnJvqwCoaM4EX8lm1ZcyRYuLi7qltOvra/5rb1tbG93f3+vWMnEgioRQB8wWTg6MOh6ZbfXy3Fw256+XDRSQkjOsP3Z+i4TRDH7M8bxilaa0GXD1+dWvC2Z/qEhOBV/xn+on2dQ9/vvwwxPc/jKL6oJhWy0UCkNhCwerZPBtYVYiwff8bTzFO8ds91YtcW4X4ONzLvjq33jq6X2SDQCScS74APD/IfgAAiH4AAIh+AACIfgAAiH4AAIh+AACIfgAAiH4AAIh+AACIfgAAiH4AAIh+AACIfgAAiH4AAIh+AACIfgAAiH4AAIh+AACecH/TX8Ah4vjX357L8oAAAAASUVORK5CYII=" InformativeScreenshot="b7f53d433742920cbf6fc89ec683a30a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Re:Earth CMS' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
                                   <uix:TargetAnchorable.Anchors>
-                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                      <uix:Target CvElementArea="11, 268, 249, 56" CvTextArea="68, 288, 73, 16" CvTextArgument="Overview" CvType="Button" DesignTimeRectangle="69, 271, 170, 50" ElementType="Text" FriendlyName="'Overview'" FullSelectorArgument="&lt;webctrl class='ant-menu-title-content' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='ant-menu-title-content' tag='SPAN' type='' aaname='Overview' check:innerText='Overview' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAK4AAAA2CAYAAABeOaLAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKtSURBVHhe7ZbRjRshEIZdxtXmaiK5gTTgDlKAH66GvFwHeUgLeSSAmM0wC2vrTjnz6z6kT7JZYFjxzbCnRKMJNsSlSTbEpUm20+8/KQGogbggCeKCJIgLkiAuSIK4IAnigiSIC5IgLkiCuCAJ4oIkiAuSIC5IgrggCeKCJIgLkiAuSIK4IAnigiRTca/XlF6+91x+jsc+lV8pnVfdG/w39uJmAaqoP0J/E+QlC/3m+58N4n5JenGbBOdX1xe4jKQG+GQ6cW9ZyLsVtVXka5Z8+BzgE+jELdX0qNoa27gDies3sqvMb3m8fSsXYpyaNGW8fapkvoU1NnzcyafCNN5kfI2f+2+uz8aSpOvxT9zJgY7wUg5lD2vtpGjP/Tyr9mcnqsnXyZTpbobBvu/Fi0m19YV1anyLA0vxYXE7iRrdgU/WjVLuZCtM5pZk2frimAfi7RLC5uQ9+GQq77lLSliCd4u7Hehgnn8+rVp5fJHHruFRAgz727yddC3+Q/HaHItd5+Q4cW6XILAU7/7GjaKWg6//vSD5v1XSGd04W8MT1utiFZqEtp9H4/nkKr/r/LZWHdPidjcALEMn7qzqdQwO1F+9UcBpBQxMxc1sCeXFsuet727FDWzv2ubb+5jER/uB59OJaxIcVd1ZVbYqHKtxrJgzjkQxGW8jKYO4j8bbxpU1XVzbx1aF/RxYhl7cQjvQnURNkJlc9cDL8yhWpl7v+Vl37eb1Li4BDiucxc7sZIriZh6JV6hJGAUt75/7yprdfFiKvbgNO3zPYRVrws+q9Sa2w4txKG5mKGNhIG7hXjw/JvYXoUcJCOswFRdgZRAXJEFckARxQRLEBUkQFyRBXJAEcUESxAVJEBckQVyQBHFBEsQFSRAXJEFckARxQRLEBUkQFyQ5JRpNrqX0F9hx4I5RnIz6AAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target CvTextArgument="Re:Earth CMS" CvType="Text" DesignTimeRectangle="9, 145, 182, 60" ElementType="Text" FriendlyName="'Re:Earth CMS'" FullSelectorArgument="&lt;webctrl aaname='Re:Earth CMS' parentid='root' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Re:Earth CMS' parentid='root' tag='DIV' type='' class='css-1p3jeed' check:innerText='Re:Earth CMS' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image, CV" />
                                     </scg:List>
                                   </uix:TargetAnchorable.Anchors>
-                                  <uix:TargetAnchorable.PointOffset>
-                                    <uix:PointOffset X="6" Y="4" />
-                                  </uix:TargetAnchorable.PointOffset>
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>

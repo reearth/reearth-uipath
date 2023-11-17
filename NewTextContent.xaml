@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="NewTextContent" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="656,231.2" sap2010:WorkflowViewState.IdRef="NewTextContent_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="NewTextContent" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="670.4,602.4" sap2010:WorkflowViewState.IdRef="NewTextContent_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -230,7 +230,7 @@
                     <av:Size x:Key="ShapeSize">200,83.2</av:Size>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Create a Project" sap:VirtualizedContainerService.HintSize="812,30347.2" sap2010:WorkflowViewState.IdRef="Sequence_55">
+                <Sequence DisplayName="Create a Project" sap:VirtualizedContainerService.HintSize="812,33201.6" sap2010:WorkflowViewState.IdRef="Sequence_55">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -482,19 +482,19 @@
                       </scg:List>
                     </ui:MultipleAssign.AssignOperations>
                   </ui:MultipleAssign>
-                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Re:Earth CMS" sap:VirtualizedContainerService.HintSize="749.6,29189.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="20bccdf2-4dba-4f19-87d3-c050cb8cbf86" Version="V2">
+                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Re:Earth CMS" sap:VirtualizedContainerService.HintSize="749.6,32044" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="20bccdf2-4dba-4f19-87d3-c050cb8cbf86" Version="V2">
                     <uix:NApplicationCard.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="716,28972.8" sap2010:WorkflowViewState.IdRef="Sequence_54">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="716,31827.2" sap2010:WorkflowViewState.IdRef="Sequence_54">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Delay sap2010:Annotation.AnnotationText="Waiting Navigator Chrome " Duration="00:00:05" sap:VirtualizedContainerService.HintSize="672.8,88" sap2010:WorkflowViewState.IdRef="Delay_1">
+                          <Delay sap2010:Annotation.AnnotationText="Waiting Navigator Chrome " Duration="00:00:05" sap:VirtualizedContainerService.HintSize="672.8,121.6" sap2010:WorkflowViewState.IdRef="Delay_1">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -502,7 +502,7 @@
                             </sap:WorkflowViewStateService.ViewState>
                           </Delay>
                           <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="672.8,24.8" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
-                          <TryCatch DisplayName="Reearth-cms Login" sap:VirtualizedContainerService.HintSize="672.8,1118.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                          <TryCatch DisplayName="Reearth-cms Login" sap:VirtualizedContainerService.HintSize="672.8,1152" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -510,13 +510,13 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <TryCatch.Try>
-                              <Sequence sap:VirtualizedContainerService.HintSize="377.6,864" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                              <Sequence sap:VirtualizedContainerService.HintSize="377.6,897.6" sap2010:WorkflowViewState.IdRef="Sequence_12">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="334.4,56.8" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                                <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="334.4,90.4" sap2010:WorkflowViewState.IdRef="Delay_2" />
                                 <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Username" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334.4,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="20bccdf2-4dba-4f19-87d3-c050cb8cbf86" Text="[Username]" Version="V3">
                                   <uix:NTypeInto.Target>
                                     <uix:TargetAnchorable BrowserURL="https://reearth-oss-test.eu.auth0.com/login?state=hKFo2SBvalBmMDVqSVMzR0wwYUdxOHI4Q2hXSXp5QW16emRZbqFupWxvZ2luo3RpZNkgT0lxUDZhcEZ0ZVZqQU1IcS1HcGtIUzZ5RjNFUlMyZ3KjY2lk2SBYcE9Obm1QTHNzMVBVNWNaQjlueDZwY2JQQThxTDRhdw&amp;client=XpONnmPLss1PU5cZB9nx6pcbPA8qL4aw&amp;protocol=oauth2&amp;audience=https%3A%2F%2Fapi.cms.test.reearth.dev&amp;scope=openid%20profile%20email%20offline_access&amp;redirect_uri=https%3A%2F%2Fcms.test.reearth.dev&amp;response_type=code&amp;response_mode=query&amp;nonce=RkkzOXRCMkNmbWpnfjQwMC5rM1FwTFhVQlRUZDk5aC1XSkJ6RXRCYjVaTQ%3D%3D&amp;code_challenge=A9xGWMM-JHdN9eEnLqLpo3PDHuyO1c4Qd3jK431d0R4&amp;code_challenge_method=S256&amp;auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMS4xMi4wIn0%3D" CvElementArea="804, 529, 329, 55" CvTextArea="873, 547, 117, 16" CvTextArgument="username/email" CvType="InputBox" DesignTimeRectangle="804, 528, 330, 55" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'username/email'" Guid="8e86bdf1-b85a-478f-a0ea-2c84ffa12dd3" InformativeScreenshot="675cb05533455a21bd8ab9aa73ba1617.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Re:Earth' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive">
@@ -558,7 +558,7 @@
                                   <ActivityAction.Argument>
                                     <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                   </ActivityAction.Argument>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334.4,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[&quot;General Exception&quot;]" />
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334.4,142.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[&quot;General Exception&quot;]" />
                                 </ActivityAction>
                               </Catch>
                               <Catch x:TypeArguments="ui:SelectorNotFoundException" sap:VirtualizedContainerService.HintSize="403.2,22.4" sap2010:WorkflowViewState.IdRef="Catch`1_2">
@@ -572,12 +572,12 @@
                                   <ActivityAction.Argument>
                                     <DelegateInArgument x:TypeArguments="ui:SelectorNotFoundException" Name="exception" />
                                   </ActivityAction.Argument>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334.4,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[&quot;An Exception Occurred&quot; + exception.Message]" />
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334.4,142.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[&quot;An Exception Occurred&quot; + exception.Message]" />
                                 </ActivityAction>
                               </Catch>
                             </TryCatch.Catches>
                           </TryCatch>
-                          <Sequence DisplayName="Log in " sap:VirtualizedContainerService.HintSize="672.8,525.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                          <Sequence DisplayName="Log in " sap:VirtualizedContainerService.HintSize="672.8,1501.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -624,8 +624,8 @@
                                 <InArgument x:TypeArguments="x:String">[MessageWorkspace]</InArgument>
                               </uta:VerifyControlAttribute.Expression>
                             </uta:VerifyControlAttribute>
-                            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="533.6,56.8" sap2010:WorkflowViewState.IdRef="Delay_3" />
-                            <If Condition="[IsLogin]" sap:VirtualizedContainerService.HintSize="533.6,56.8" sap2010:WorkflowViewState.IdRef="If_2">
+                            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="533.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                            <If Condition="[IsLogin]" sap:VirtualizedContainerService.HintSize="533.6,999.2" sap2010:WorkflowViewState.IdRef="If_2">
                               <If.Then>
                                 <Sequence sap:VirtualizedContainerService.HintSize="377.6,408" sap2010:WorkflowViewState.IdRef="Sequence_13">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -650,7 +650,7 @@
                               </If.Else>
                             </If>
                           </Sequence>
-                          <Sequence DisplayName="Create New Workspace" sap:VirtualizedContainerService.HintSize="672.8,1179.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                          <Sequence DisplayName="Create New Workspace" sap:VirtualizedContainerService.HintSize="672.8,2329.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -689,7 +689,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="533.6,56.8" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="533.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_4" />
                             <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify If New Workspace " sap:VirtualizedContainerService.HintSize="533.6,216.8" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_4" Operator="Equality" OutputArgument="Value" Result="[IsWorkspace]" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True">
                               <uta:VerifyControlAttribute.ActivityToTest>
                                 <ActivityAction>
@@ -731,7 +731,7 @@
                                 <InArgument x:TypeArguments="x:String">[WorkspaceCreate]</InArgument>
                               </uta:VerifyControlAttribute.Expression>
                             </uta:VerifyControlAttribute>
-                            <If Condition="[IsWorkspace]" sap:VirtualizedContainerService.HintSize="533.6,56.8" sap2010:WorkflowViewState.IdRef="If_3">
+                            <If Condition="[IsWorkspace]" sap:VirtualizedContainerService.HintSize="533.6,1173.6" sap2010:WorkflowViewState.IdRef="If_3">
                               <If.Then>
                                 <Sequence sap:VirtualizedContainerService.HintSize="377.6,408" sap2010:WorkflowViewState.IdRef="Sequence_18">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -761,7 +761,7 @@
                               </If.Else>
                             </If>
                           </Sequence>
-                          <Sequence DisplayName="Create New Project" sap:VirtualizedContainerService.HintSize="672.8,2184" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                          <Sequence DisplayName="Create New Project" sap:VirtualizedContainerService.HintSize="672.8,2811.2" sap2010:WorkflowViewState.IdRef="Sequence_27">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -828,7 +828,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:MultipleAssign>
-                            <Sequence DisplayName="Create Project " sap:VirtualizedContainerService.HintSize="596,1599.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                            <Sequence DisplayName="Create Project " sap:VirtualizedContainerService.HintSize="596,1632.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
                               <Sequence.Variables>
                                 <Variable x:TypeArguments="x:String" Name="ModelName" />
                                 <Variable x:TypeArguments="x:String" Name="ModelDescription" />
@@ -937,34 +937,32 @@
                                   <InArgument x:TypeArguments="x:String">[MessageSucces]</InArgument>
                                 </uta:VerifyControlAttribute.Expression>
                               </uta:VerifyControlAttribute>
-                              <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="533.6,56.8" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                              <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="533.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_5" />
                             </Sequence>
-                            <If Condition="[IsTrueProject]" sap:VirtualizedContainerService.HintSize="596,56.8" sap2010:WorkflowViewState.IdRef="If_5">
+                            <If Condition="[IsTrueProject]" sap:VirtualizedContainerService.HintSize="596,650.4" sap2010:WorkflowViewState.IdRef="If_5">
                               <If.Then>
-                                <Sequence sap:VirtualizedContainerService.HintSize="377.6,408" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                <Sequence sap:VirtualizedContainerService.HintSize="377.6,233.6" sap2010:WorkflowViewState.IdRef="Sequence_20">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334.4,144" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[MessageSucces]" />
-                                  <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334.4,134.4" sap2010:WorkflowViewState.IdRef="StepStatus_5" ReportId="[IsTextContentId]" Status="Pass" StepDescription="Verification Project  Successfully Created!" StepName="[MessageSucces]" TakeScreenshot="True" TestId="[IsTestIdTextContent]" />
                                 </Sequence>
                               </If.Then>
                               <If.Else>
-                                <Sequence sap:VirtualizedContainerService.HintSize="377.6,408" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                                <Sequence sap:VirtualizedContainerService.HintSize="377.6,233.6" sap2010:WorkflowViewState.IdRef="Sequence_26">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334.4,144" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[MessageFail]" />
-                                  <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334.4,134.4" sap2010:WorkflowViewState.IdRef="StepStatus_6" ReportId="[IsTextContentId]" Status="Fail" StepDescription="Verification Not Successfully Created Project !" StepName="[MessageNotSuccesCreateProject]" TakeScreenshot="True" TestId="[IsTestIdTextContent]" />
                                 </Sequence>
                               </If.Else>
                             </If>
                           </Sequence>
-                          <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="672.8,56.8" sap2010:WorkflowViewState.IdRef="Delay_8" />
+                          <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="672.8,90.4" sap2010:WorkflowViewState.IdRef="Delay_8" />
                           <Sequence DisplayName="Create Model " sap:VirtualizedContainerService.HintSize="672.8,3073.6" sap2010:WorkflowViewState.IdRef="Sequence_65">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1003,10 +1001,10 @@
                             </ui:MultipleAssign>
                             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Project Name" sap:VirtualizedContainerService.HintSize="533.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_52" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20bccdf2-4dba-4f19-87d3-c050cb8cbf86" Version="V3">
                               <uix:NClick.Target>
-                                <uix:TargetAnchorable BrowserURL="https://cms.test.reearth.dev/workspace/01he4x3jfaeq9cx9p7zkgwys37" DesignTimeRectangle="320, 684, 358, 125" DesignTimeScaleFactor="1.25" FriendlyName="'11/01/2023 16:38:35Desc…'" FullSelectorArgument="&lt;webctrl class='ant-card-body' parentid='root' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='ant-card-body' parentid='root' tag='DIV' type='' aaname='' check:innerText='11/01/2023 16:38:35&amp;#xD;&amp;#xA;Description Project' /&gt;" Guid="f172ae2f-0d20-4da5-b8f9-2c32686e72b5" ImageBase64="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" InformativeScreenshot="6bf90b714a50b4b9e266f66d5802c8ac.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Re:Earth CMS' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                                <uix:TargetAnchorable BrowserURL="https://cms.test.reearth.dev/workspace/01hfa2ctzgt30507rf21019cs5" CvTextArgument="Description Project" CvType="Text" DesignTimeRectangle="350, 765, 298, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Description Project'" FullSelectorArgument="&lt;webctrl class='ant-card-meta-description' parentid='root' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='ant-card-meta-description' parentid='root' tag='DIV' type='' aaname='Description Project' check:innerText='Description Project' /&gt;" Guid="5efb3c8e-f0b3-4c4d-b619-5d83b2603f13" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAS4AAAAgCAYAAACsPZWHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAO7SURBVHhe7ZlRlqowDIbv/o+bYTYxrEBX4Cxgju/c0qSYJmmpI4rV/zuHB6CmaWk+i/6bAACgMyAuAEB3QFwAgO6AuAAA3QFxAQC6A+ICAHQHxAUA6A6ICwDQHRAXAKA7IC4AQHfk4voZp8Ph4B7jD7d5ES6nIeQ1Tmc+v5/zNIZxDqcLnz8HGsfj5/v8HeJ+Hafnjg6Ax+CIa5iOv3ye+D1OQyyoLUVxH/eIK37WFPGe4lLj4C+QLXN5lLhi3O9XWRXgU2gTV+QyHb/e41vbF9c+lATcyw4J4gJ7cIO4Amv3O6EHcdFcv84OtwTEBfbgNnEVXqfi4o2vknSY32diXNlGFyTFlW1SH4tkltdVys8UfLxP94r5LDHkkcZbelUs55a4ilC1bSjoNnFR3Hkcy9hkbDO/9hnGzxlZ67H5oqQcVTvTJ1/nzwDwSG4UF78uLkXjvD7ygl5k4cQ8f4sFnmQiCzFcGzNxDdOgiq4kriHkI8WZis5cKxRxJiUeS3bNyfda2HZcVoQ5ZhxMLhrOLcyDHMcMiSyfX2/MRlxOfhQrz8WLL59fvN8gaAC25D5xFdrLIvElkdAitFAR2j5MwVdEoYvWz0mLi3JzxaPGXcpR9+thxhGw8XhnpOeJZa37ndF9r50Tag5W1wPHgbjAk7lLXKVFmxVjjFlY3CwbvYuQeIU9Y65Xili3jedrRVuJp9v68cq5S6hNmJ/s0J/RUiVK/UbUs8xFRfHsvDvPtxSfgbjAHvzpNy5a8LzIl2LTh5aKc73hG71ZCluLq5rb1uKqt8nn/UpVLDVxZc/DOaKI1nfDMxAX2IPbxBXvX4vs9kWbZMd9VHc1RLMU1sQlYvgxlbiqub2GuEr9RmriKsTTtDxfiAvsQbu4+Ftavq60FZ1GFo2ShUOzFJz8CLtz8GPqXCq5qXlqztGhpU0+Z4LK88pFpc/bdlMtuUFcYA+axEUL2CtiKihTtCFOKrLLaczj6T7iuYodJJT/q9ggBRaXzj8Wlh6TO05HVIXcXIHvIa6ANz6K6cyDzNEbWyD7xzcJTuUn27TlD8C2OOKaF6o6nKK8kha3354WtryvhRFYpGPbxM83i2v+HMt0ObyikjmnvhxxzZjc2l/ZWoq6pU3KzRPXDMWQOdp4RlwzztjM+AMkR3FkOyw532vjAGAbcnH1zCIuPgcZUT54pQNvAsT1EdAO09tNAdAjENcn4P6mB0C/QFxvi/c7HgDvwfuICwDwMUBcAIDugLgAAN0BcQEAugPiAgB0xjT9B8keQcw/gyj3AAAAAElFTkSuQmCC" InformativeScreenshot="a8ac303cbfd5ef2ab391d894212124c1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Re:Earth CMS' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
                                   <uix:TargetAnchorable.Anchors>
                                     <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                                      <uix:Target CvTextArgument="Description Project" CvType="Text" DesignTimeRectangle="350, 750, 298, 28" ElementType="Text" FriendlyName="'Description Project'" FullSelectorArgument="&lt;webctrl class='ant-card-meta-description' parentid='root' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='ant-card-meta-description' parentid='root' tag='DIV' type='' aaname='Description Project' check:innerText='Description Project' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAS4AAAAgCAYAAACsPZWHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAO7SURBVHhe7ZlRlqowDIbv/o+bYTYxrEBX4Cxgju/c0qSYJmmpI4rV/zuHB6CmaWk+i/6bAACgMyAuAEB3QFwAgO6AuAAA3QFxAQC6A+ICAHQHxAUA6A6ICwDQHRAXAKA7IC4AQHfk4voZp8Ph4B7jD7d5ES6nIeQ1Tmc+v5/zNIZxDqcLnz8HGsfj5/v8HeJ+Hafnjg6Ax+CIa5iOv3ye+D1OQyyoLUVxH/eIK37WFPGe4lLj4C+QLXN5lLhi3O9XWRXgU2gTV+QyHb/e41vbF9c+lATcyw4J4gJ7cIO4Amv3O6EHcdFcv84OtwTEBfbgNnEVXqfi4o2vknSY32diXNlGFyTFlW1SH4tkltdVys8UfLxP94r5LDHkkcZbelUs55a4ilC1bSjoNnFR3Hkcy9hkbDO/9hnGzxlZ67H5oqQcVTvTJ1/nzwDwSG4UF78uLkXjvD7ygl5k4cQ8f4sFnmQiCzFcGzNxDdOgiq4kriHkI8WZis5cKxRxJiUeS3bNyfda2HZcVoQ5ZhxMLhrOLcyDHMcMiSyfX2/MRlxOfhQrz8WLL59fvN8gaAC25D5xFdrLIvElkdAitFAR2j5MwVdEoYvWz0mLi3JzxaPGXcpR9+thxhGw8XhnpOeJZa37ndF9r50Tag5W1wPHgbjAk7lLXKVFmxVjjFlY3CwbvYuQeIU9Y65Xili3jedrRVuJp9v68cq5S6hNmJ/s0J/RUiVK/UbUs8xFRfHsvDvPtxSfgbjAHvzpNy5a8LzIl2LTh5aKc73hG71ZCluLq5rb1uKqt8nn/UpVLDVxZc/DOaKI1nfDMxAX2IPbxBXvX4vs9kWbZMd9VHc1RLMU1sQlYvgxlbiqub2GuEr9RmriKsTTtDxfiAvsQbu4+Ftavq60FZ1GFo2ShUOzFJz8CLtz8GPqXCq5qXlqztGhpU0+Z4LK88pFpc/bdlMtuUFcYA+axEUL2CtiKihTtCFOKrLLaczj6T7iuYodJJT/q9ggBRaXzj8Wlh6TO05HVIXcXIHvIa6ANz6K6cyDzNEbWyD7xzcJTuUn27TlD8C2OOKaF6o6nKK8kha3354WtryvhRFYpGPbxM83i2v+HMt0ObyikjmnvhxxzZjc2l/ZWoq6pU3KzRPXDMWQOdp4RlwzztjM+AMkR3FkOyw532vjAGAbcnH1zCIuPgcZUT54pQNvAsT1EdAO09tNAdAjENcn4P6mB0C/QFxvi/c7HgDvwfuICwDwMUBcAIDugLgAAN0BcQEAugPiAgB0xjT9B8keQcw/gyj3AAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                                      <uix:Target CvElementArea="317, 428, 311, 44" CvTextArea="331, 441, 118, 22" CvTextArgument="search projects" CvType="InputBox" DesignTimeRectangle="334, 437, 241, 28" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='ant-input' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAPUAAAAgCAYAAADKQj75AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMZSURBVHhe7ZjNsqQgDEbn/V/KlUu3rvu+QL+CA4SfEBKh5mpPNX6nioWKJFA5QvefAwAwFZAagMmA1ABMBqQGYDIgNQCTAakBmAxIDcBkQGoAJgNSAzAZXyT169iW5dh+4iUAQAVSX8xrW45l3Y93vAbg00Dqi7lL6jDu9opXANhA6i8BUoNRIPWXAKnBKEJqEmdhTUoUiuvk+Xtfq+fLsh47P4u+92MN997HvlKflXVo399cVp4idd1HjK8Q+ocjsZxfGjtRYuR5cpF+Nvaub23s8F5z/O7F9ZT1yM3HbmL6Vt5v1gu/5x8Pk5oKjwvmC6pIG4uOF00suNLHjSGKiuRgRRylXldDCCHKa6ul9vF4js34CiS1i1n1SxLxe3ENXF/5sdJyS0Lxvo3UYb69nOPcqrVz99gHJbwjdmqKL+a0QeqnU6TOO2i8lgSBR3cmhhxXKfKAMX4hFr48gsbxpIQcKn5t7ChxfnAWQ89Nzr93TdRxu2voCH1EXto9AJqd2tr1rAJqdwuHcmTM0hkS9gub8mvllWK20E6tjR136zwvfSz7fYf4GNXzsHLmcfv5e7T1p7XvvwuehfhNnY6k1Eox1vfbFqWOwlaSS4nVXU/KpfE5qWWM0w/OmdR5PYzm4xofOYkmdYB/QK0cwaMQUhfkLmAWVcYQc0jqkfHvk7q8q8e4fqfmjPSJ4w6sj3XSAs/BlNrDC4kkPysYXer0cehJ3R/fKn6635VaiUm58DGNGEJcTi2xvB45gYz0ieN2+lhrC55F9UfZVlWDlCXuBHLHcgWfJAiFpxy9R6TOxS3Elv9+/7vUMndtPlYMn4fPrc5b+1hIydPxWOZX5uVI61RJ63Jh19pHrxrDofUBz6OSOgmYWitKEo+1Sgrx3D+L4/alJkge1nJh/1Jqnwv//VmNnbCl9uSPQ26tQI3UnqG1pdi8T50Hf05xm7WC0MBxevyehSx1vL6TIFrvmAzAjUDqS6GTytmpAYC7gdRXcvKHGgCfAlL/Gv4/AoQG/59HSA3Ak4DUAEwGpAZgMiA1AJMBqQGYiuP4C/uF3ri3UwGhAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
                                     </scg:List>
                                   </uix:TargetAnchorable.Anchors>
                                 </uix:TargetAnchorable>
