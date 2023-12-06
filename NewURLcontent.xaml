@@ -234,7 +234,7 @@
                     <av:Size x:Key="ShapeSize">200,83.2</av:Size>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Create A Project" sap:VirtualizedContainerService.HintSize="797.6,37212.8" sap2010:WorkflowViewState.IdRef="Sequence_48">
+                <Sequence DisplayName="Create A Project" sap:VirtualizedContainerService.HintSize="797.6,37343.2" sap2010:WorkflowViewState.IdRef="Sequence_48">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -462,13 +462,13 @@
                       </scg:List>
                     </ui:MultipleAssign.AssignOperations>
                   </ui:MultipleAssign>
-                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Re:Earth" sap:VirtualizedContainerService.HintSize="735.2,36148" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="4cc16d90-aee9-46cc-a455-914b18492a2b" Version="V2">
+                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Re:Earth" sap:VirtualizedContainerService.HintSize="735.2,36278.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="4cc16d90-aee9-46cc-a455-914b18492a2b" Version="V2">
                     <uix:NApplicationCard.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="701.6,35931.2" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="701.6,36061.6" sap2010:WorkflowViewState.IdRef="Sequence_47">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -954,12 +954,13 @@
                             </If>
                           </Sequence>
                           <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="658.4,90.4" sap2010:WorkflowViewState.IdRef="Delay_6" />
-                          <Sequence DisplayName="Create Model " sap:VirtualizedContainerService.HintSize="658.4,3352" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                          <Sequence DisplayName="Create Model " sap:VirtualizedContainerService.HintSize="658.4,3482.4" sap2010:WorkflowViewState.IdRef="Sequence_21">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
+                            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="533.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_32" />
                             <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="533.6,164" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
                               <ui:MultipleAssign.AssignOperations>
                                 <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
