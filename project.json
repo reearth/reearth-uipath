@@ -134,6 +134,20 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "13CreateMetaDataDate.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "86be2a07-f1a0-4e25-b5e4-ce6fdacd58d4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "14CreateReferenceOneWay.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "272b6157-b228-42a7-945d-5f92bffd59ec",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "15CreateReferenceTwoWay.xaml"
       }
     ],
     "modernBehavior": true,
