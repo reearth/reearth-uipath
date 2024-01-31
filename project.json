@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.6.1.0",
-  "projectVersion": "1.0.155547532",
+  "projectVersion": "1.0.155547533",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -116,13 +116,6 @@
       },
       {
         "editingStatus": "Publishable",
-        "testCaseId": "648db489-7982-44dd-a982-7e6cbfadc560",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "11CreateNewURLcontent.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
         "testCaseId": "d783a828-2ccb-4134-90c7-9db48276f32f",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
@@ -148,6 +141,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "15CreateReferenceTwoWay.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bd5aa844-90fd-4db8-8384-d0b4d89f478c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "11CreateNewURLcontents.xaml"
       }
     ],
     "modernBehavior": true,
