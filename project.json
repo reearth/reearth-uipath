@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.6.1.0",
-  "projectVersion": "1.0.155547535",
+  "projectVersion": "1.0.155547536",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -150,7 +150,7 @@
         "fileName": "11CreateNewURLcontents.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "dff00e9d-bd9d-4426-a9f7-5af0de56b973",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
