@@ -1577,6 +1577,10 @@
       "Path": "NewCreateGroupFieldContent.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "IsLogOut&Sequence_74",
+        "IsSuiteIdGroup&Flowchart_1",
+        "IsTestIdGroup&Flowchart_1",
+        "IsGroupId&Flowchart_1",
         "IsDeleteProject&Sequence_71",
         "IsDeleteWorkSpace&Sequence_72",
         "IsdeleteItems&Flowchart_1",
@@ -1587,7 +1591,6 @@
         "GroupKey2&Flowchart_1",
         "GroupDescription2&Flowchart_1",
         "GroupName2&Flowchart_1",
-        "IsLogOut&Sequence_53",
         "IsGroupTestId&Flowchart_1",
         "IsReport&Flowchart_1",
         "IsFielFail&Flowchart_1",
